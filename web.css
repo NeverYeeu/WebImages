@@ -1,0 +1,20 @@
+:root{
+	--web: #ccc;
+	--white: #ffffff;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: var(--white);
+}
+.web-column{
+	width: 1000px;
+	padding: 12px;
+	margin: 0px auto;
+	background: rgba(0,0,0,0.6)
+}
+.hover-name:hover{
+	color: var(--web)
+}
